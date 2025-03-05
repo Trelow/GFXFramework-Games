@@ -8,7 +8,7 @@ graphics and gameplay mechanics.
 ---
 
 ### 1. Tank Wars  
-Tank Wars is a **2D/2.5D artillery game** where players control tanks on a **procedurally generated terrain**. The terrain is deformable, reacting to **projectile explosions** by creating craters and triggering landslides. Tanks must strategically aim and fire projectiles, accounting for **gravity and terrain inclination** to hit enemy targets. The game features **health bars**, trajectory previews for better aiming, and real-time terrain updates.  
+Tank Wars is a **2D artillery game** where players control tanks on a **procedurally generated terrain**. The terrain is deformable, reacting to **projectile explosions** by creating craters and triggering landslides. Tanks must strategically aim and fire projectiles, accounting for **gravity and terrain inclination** to hit enemy targets. The game features **health bars**, trajectory previews for better aiming, and real-time terrain updates.  
 
 **Controls:**  
     **Player 1**:
