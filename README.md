@@ -1,5 +1,3 @@
-# GFX Framework
-
 ## Example Projects with GFXFramework
 
 Below is a succinct overview of two example games created with the **GFXFramework** 
@@ -44,6 +42,7 @@ World *world = new m1::Tema1(); // Tank Wars
 World *world = new m2::Tema2(); // Drone Mini Games
 ```
 
+# GFX Framework
 
 ## :sparkles: Introduction
 
