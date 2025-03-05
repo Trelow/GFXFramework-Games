@@ -1,6 +1,6 @@
 ## Example Projects with GFXFramework
 
-Below is a succinct overview of my two example games created with the **GFXFramework** 
+Below is a succinct overview of my two games created with the **GFXFramework** 
 (a minimalistic OpenGL-based graphics framework) as part of the “Elements of Computer Graphics” coursework at UPB. 
 The framework provides the fundamental rendering setup, while each project highlights a range of **3D/2D** 
 graphics and gameplay mechanics.
