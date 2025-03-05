@@ -1,5 +1,50 @@
 # GFX Framework
 
+## Example Projects with GFXFramework
+
+Below is a succinct overview of two example games created with the **GFXFramework** 
+(a minimalistic OpenGL-based graphics framework) as part of the “Elements of Computer Graphics” coursework at UPB. 
+The framework provides the fundamental rendering setup, while each project highlights a range of **3D/2D** 
+graphics and gameplay mechanics.
+
+---
+
+### 1. Tank Wars  
+Tank Wars is a **2D/2.5D artillery game** where players control tanks on a **procedurally generated terrain**. The terrain is deformable, reacting to **projectile explosions** by creating craters and triggering landslides. Tanks must strategically aim and fire projectiles, accounting for **gravity and terrain inclination** to hit enemy targets. The game features **health bars**, trajectory previews for better aiming, and real-time terrain updates.  
+
+**Controls:**  
+    **Player 1**:
+        - **A/D** – Move the tank left/right.  
+        - **W/S** – Adjust the turret angle.  
+        - **Spacebar** – Fire projectile.  
+    **Player 2**:
+        - **Left/Right Arrow** – Move the tank left/right.  
+        - **Up/Down Arrow** – Adjust the turret angle.  
+        - **Enter** – Fire projectile.
+
+
+![alt text](image.png)
+
+---
+
+### 2. Drone Mini Games – Package Delivery  
+In this game mode, the player **pilots a drone** to pick up and deliver packages across a dynamically generated environment. The terrain is **procedurally created using vertex noise**, and obstacles like **trees or buildings** are scattered randomly. The drone **automatically picks up packages** when it collides with them and must navigate to a marked **delivery zone** to drop them off. The UI includes a **minimap** and a **directional arrow** to assist navigation. The game tracks the number of successful deliveries.  
+
+**Controls:**  
+- **W/S** – Move up/down.
+- **A/D** – Rotate left/right.  
+- **Left/Right Arrow** – Move left/right.  
+- **Up/Down Arrow** – Move forward/backward.
+
+![alt text](image-1.png)
+
+Modify in main.cpp the following line to run the desired game:
+```cpp
+World *world = new m1::Tema1(); // Tank Wars
+World *world = new m2::Tema2(); // Drone Mini Games
+```
+
+
 ## :sparkles: Introduction
 
 This project is a tiny graphics framework used by the Computer Graphics Department of the Polytechnic University of Bucharest.
@@ -180,45 +225,6 @@ All user and developer documentation can be found in the `docs` directory.
 
 See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more info.
 A future roadmap is ***TBD***.
-
-## Example Projects with GFXFramework
-
-Below is a succinct overview of two example games created with the **GFXFramework** 
-(a minimalistic OpenGL-based graphics framework) as part of the “Elements of Computer Graphics” coursework at UPB. 
-The framework provides the fundamental rendering setup, while each project highlights a range of **3D/2D** 
-graphics and gameplay mechanics.
-
----
-
-### 1. Tank Wars  
-Tank Wars is a **2D/2.5D artillery game** where players control tanks on a **procedurally generated terrain**. The terrain is deformable, reacting to **projectile explosions** by creating craters and triggering landslides. Tanks must strategically aim and fire projectiles, accounting for **gravity and terrain inclination** to hit enemy targets. The game features **health bars**, trajectory previews for better aiming, and real-time terrain updates.  
-
-**Controls:**  
-- **A/D** – Move the tank left/right.  
-- **W/S** – Adjust the turret angle.  
-- **Spacebar** – Fire projectile.  
-
-![alt text](image.png)
-
----
-
-### 2. Drone Mini Games – Package Delivery  
-In this game mode, the player **pilots a drone** to pick up and deliver packages across a dynamically generated environment. The terrain is **procedurally created using vertex noise**, and obstacles like **trees or buildings** are scattered randomly. The drone **automatically picks up packages** when it collides with them and must navigate to a marked **delivery zone** to drop them off. The UI includes a **minimap** and a **directional arrow** to assist navigation. The game tracks the number of successful deliveries.  
-
-**Controls:**  
-- **W/S** – Move forward/backward.  
-- **A/D** – Strafe left/right.  
-- **Q/E** – Rotate left/right.  
-- **Shift** – Ascend.  
-- **Ctrl** – Descend.  
-
-![alt text](image-1.png)
-
-Modify in main.cpp the following line to run the desired game:
-```cpp
-World *world = new m1::Tema1(); // Tank Wars
-World *world = new m2::Tema2(); // Drone Mini Games
-```
 
 ---
 
